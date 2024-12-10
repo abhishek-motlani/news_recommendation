@@ -57,7 +57,7 @@ After you've set up your MongoDB with the data, the rest of the project should r
 
 Ensure your virtual environment is activated, then run the backend server using `uvicorn`:
 ```bash
-uvicorn main_point:app --reload
+uvicorn main_points:app --reload
 ```
 
 ## 2. Start the frontend
