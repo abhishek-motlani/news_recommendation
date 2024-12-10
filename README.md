@@ -40,7 +40,16 @@ Before you begin, ensure that you have the following installed:
     ```bash
     npm install
     ```
+### 3. Database Setup
+ 1. Note on MongoDB Data
+    Due to the size of the database, the actual MongoDB data has not been included in this repository. However, in the Database/ folder, I have provided a Python file that can be used to extract 
+    data via an API call and save it into a MongoDB database.
 
+ 2. Navigate to the Database/ folder in the project directory.
+   Open the Python script in the folder.
+   Use a different API key (you can replace it in the script) to fetch the data and insert it into your MongoDB database.
+Once the data is inserted into MongoDB, you can run the rest of the code.
+After you've set up your MongoDB with the data, the rest of the project should run as expected
 ## Running the Application
 
 ### 1. Start the Backend
