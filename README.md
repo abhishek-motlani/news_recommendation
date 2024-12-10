@@ -8,6 +8,7 @@ Before you begin, ensure that you have the following installed:
 
 - Python 3.x
 - Node.js (for frontend)
+- OpenAi API key(please change it in the code)
 
 ## Installation
 
@@ -65,3 +66,6 @@ Ensure you are in frontend directory:
 ```bash
 npm start
 ```
+
+## 3. Video link to how it will look
+https://www.loom.com/share/4626bed92a304a7284066a661fc9cb0f?sid=53128682-134a-452e-9fe1-01a21400335c
